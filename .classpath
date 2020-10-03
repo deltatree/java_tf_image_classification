@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin/default"/>
+	<classpathentry output="bin/main" kind="src" path="src/main/java">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/main" kind="src" path="src/main/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/test" kind="src" path="src/test/java">
+		<attributes>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry output="bin/test" kind="src" path="src/test/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry sourcepath="/Users/deltatree/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.15/843bc57fd042051e994846da8167bb7ca677a6d/commons-codec-1.15-sources.jar" kind="lib" path="/Users/deltatree/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.15/49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d/commons-codec-1.15.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/deltatree/.gradle/caches/modules-2/files-2.1/args4j/args4j/2.33/155fd0af01281cf320eec1db59bb15507ddcb7bf/args4j-2.33-sources.jar" kind="lib" path="/Users/deltatree/.gradle/caches/modules-2/files-2.1/args4j/args4j/2.33/bd87a75374a6d6523de82fef51fc3cfe9baf9fc9/args4j-2.33.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/deltatree/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.0.1-jre/cb5c1119df8d41a428013289b193eba3ccaf5f60/guava-27.0.1-jre-sources.jar" kind="lib" path="/Users/deltatree/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.0.1-jre/bd41a290787b5301e63929676d792c507bbc00ae/guava-27.0.1-jre.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/deltatree/.gradle/caches/modules-2/files-2.1/org.tensorflow/tensorflow-core-api/0.2.0-20201001.071558-167/474c4e46894a20ac1c142af6092036255ae5ed09/tensorflow-core-api-0.2.0-20201001.071558-167-sources.jar" kind="lib" path="/Users/deltatree/.gradle/caches/modules-2/files-2.1/org.tensorflow/tensorflow-core-api/0.2.0-20201001.071558-167/d9645b660a30e4303d211b4a283116152f86a9ba/tensorflow-core-api-0.2.0-20201001.071558-167.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/deltatree/.gradle/caches/modules-2/files-2.1/org.tensorflow/tensorflow-core-api/0.2.0-20201001.071558-167/474c4e46894a20ac1c142af6092036255ae5ed09/tensorflow-core-api-0.2.0-20201001.071558-167-sources.jar" kind="lib" path="/Users/deltatree/.gradle/caches/modules-2/files-2.1/org.tensorflow/tensorflow-core-api/0.2.0-20201001.071558-167/84b8890cd60a55600be0636c744088604032bf82/tensorflow-core-api-0.2.0-20201001.071558-167-linux-x86_64.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/deltatree/.gradle/caches/modules-2/files-2.1/org.tensorflow/tensorflow-core-api/0.2.0-20201001.071558-167/474c4e46894a20ac1c142af6092036255ae5ed09/tensorflow-core-api-0.2.0-20201001.071558-167-sources.jar" kind="lib" path="/Users/deltatree/.gradle/caches/modules-2/files-2.1/org.tensorflow/tensorflow-core-api/0.2.0-20201001.071558-167/c60e61fc95bec1400086e43e80311d98e1d2fee1/tensorflow-core-api-0.2.0-20201001.071558-167-macosx-x86_64.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/deltatree/.gradle/caches/modules-2/files-2.1/org.tensorflow/tensorflow-core-api/0.2.0-20201001.071558-167/474c4e46894a20ac1c142af6092036255ae5ed09/tensorflow-core-api-0.2.0-20201001.071558-167-sources.jar" kind="lib" path="/Users/deltatree/.gradle/caches/modules-2/files-2.1/org.tensorflow/tensorflow-core-api/0.2.0-20201001.071558-167/7cb3618509908aacdb278cf8e38d3c4ed770574a/tensorflow-core-api-0.2.0-20201001.071558-167-windows-x86_64.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/deltatree/.gradle/caches/modules-2/files-2.1/org.tensorflow/ndarray/0.2.0-SNAPSHOT/1baa6f2561c47f1ad181492cfecc524f5483df66/ndarray-0.2.0-SNAPSHOT.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/deltatree/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1d064e61aad6c51cc77f9b59dc2cccc78e792f5a/failureaccess-1.0.1-sources.jar" kind="lib" path="/Users/deltatree/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/deltatree/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/deltatree/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/b19b5927c2c25b6c70f093767041e641ae0b1b35/jsr305-3.0.2-sources.jar" kind="lib" path="/Users/deltatree/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/deltatree/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/2.5.2/ebb8ebccd42218434674f3e1d9022c13df1c19f8/checker-qual-2.5.2-sources.jar" kind="lib" path="/Users/deltatree/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/2.5.2/cea74543d5904a30861a61b4643a5f2bb372efc4/checker-qual-2.5.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/deltatree/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.2.0/a8cd7823aa1dcd2fd6677c0c5988fdde9d1fb0a3/error_prone_annotations-2.2.0-sources.jar" kind="lib" path="/Users/deltatree/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.2.0/88e3c593e9b3586e1c6177f89267da6fc6986f0c/error_prone_annotations-2.2.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/deltatree/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.1/1efdf5b737b02f9b72ebdec4f72c37ec411302ff/j2objc-annotations-1.1-sources.jar" kind="lib" path="/Users/deltatree/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.1/ed28ded51a8b1c6b112568def5f4b455e6809019/j2objc-annotations-1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/deltatree/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.17/8fb5b5ad9c9723951b9fccaba5bb657fa6064868/animal-sniffer-annotations-1.17-sources.jar" kind="lib" path="/Users/deltatree/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.17/f97ce6decaea32b36101e37979f8b647f00681fb/animal-sniffer-annotations-1.17.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/deltatree/.gradle/caches/modules-2/files-2.1/org.bytedeco/javacpp/1.5.4/731d9c0b7c6405085d1a0f4f44b8082d9d8d5db3/javacpp-1.5.4-sources.jar" kind="lib" path="/Users/deltatree/.gradle/caches/modules-2/files-2.1/org.bytedeco/javacpp/1.5.4/fb4e5f46cefbb6674c324bb28babc9fcf3caa642/javacpp-1.5.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/Users/deltatree/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.8.0/df71e14a1af8ba1ff508528f9057b535ac8b66b2/protobuf-java-3.8.0-sources.jar" kind="lib" path="/Users/deltatree/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.8.0/b5f93103d113540bb848fe9ce4e6819b1f39ee49/protobuf-java-3.8.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+</classpath>

@@ -1,0 +1,50 @@
+plugins {
+	id 'eclipse'
+    id 'java-library'
+    id 'com.github.johnrengelman.shadow' version '6.0.0'
+}
+
+group = 'de.deltatree.tools.google.tf'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+    maven { 
+    	url 'https://oss.sonatype.org/content/repositories/snapshots/'
+    }
+	mavenCentral()
+    jcenter()
+}
+
+dependencies {
+	implementation 'args4j:args4j:2.33'
+
+    implementation 'com.google.guava:guava:27.0.1-jre'
+
+	//https://github.com/tensorflow/java
+	
+	//Pinned specific snapshot version in cause of errors getting it with 0.2.0-SNAPSHOT
+	implementation 'org.tensorflow:tensorflow-core-api:0.2.0-20201001.071558-167'
+	implementation 'org.tensorflow:tensorflow-core-api:0.2.0-20201001.071558-167:linux-x86_64'
+	implementation 'org.tensorflow:tensorflow-core-api:0.2.0-20201001.071558-167:macosx-x86_64'
+	implementation 'org.tensorflow:tensorflow-core-api:0.2.0-20201001.071558-167:windows-x86_64'
+
+	//implementation 'org.tensorflow:tensorflow-core-api:0.2.0-SNAPSHOT'
+	//implementation 'org.tensorflow:tensorflow-core-api:0.2.0-SNAPSHOT:linux-x86_64'
+	//implementation 'org.tensorflow:tensorflow-core-api:0.2.0-SNAPSHOT:macosx-x86_64'
+	//implementation 'org.tensorflow:tensorflow-core-api:0.2.0-SNAPSHOT:windows-x86_64'
+
+	compile 'commons-codec:commons-codec:1.15'
+
+	implementation 'org.tensorflow:ndarray:0.2.0-SNAPSHOT'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'de.deltatree.tools.google.tf.CMDLineMain'
+    }
+}
+
+test {
+	useJUnitPlatform()
+}
