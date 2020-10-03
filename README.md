@@ -6,7 +6,7 @@ I built a tensorflow model with Google AutoMl Vision , downloaded it for local u
 The showcase processes all images (jpg,png,gif) in the given directory (--scanDir) - the used model is saved in the jar and will be copied to the given directory (--temp).
 
 #### Usage:
-java -jar --temp /tmp/model --scanDir /dirContainingPics 
+java -jar java_tf_image_classification-0.0.1-SNAPSHOT-all.jar --temp /tmp/model --scanDir /dirContainingPics 
 
 jar is compatible to run on Mac, Windows and Linux
 
