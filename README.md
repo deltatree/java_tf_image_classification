@@ -22,12 +22,12 @@ OK   Ì.jpg -> {motorbike=0.034807786, airplane=0.06581213, dog=0.8993801} -> do
 ```
 
 ### Google AutoMl Vision
-<img src="documentation/vision.png" width="100">
+<img src="documentation/vision.png" width="222">
 
 ### Model quality
-<img src="documentation/quality.png" width="100">
+<img src="documentation/quality.png" width="222">
 
 ### Model export
-<img src="documentation/export.png" width="100">
+<img src="documentation/export.png" width="222">
 
 
