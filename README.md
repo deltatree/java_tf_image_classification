@@ -27,7 +27,7 @@ OK   Ì.jpg -> {motorbike=0.034807786, airplane=0.06581213, dog=0.8993801} -> do
 ### Model quality
 <img src="documentation/quality.png" width="333">
 
-### Model export (Export your model as a TF Saved Model to run on a Docker container.)
+### Model export ["Export your model as a TF Saved Model to run on a Docker container." or with this showcase in java ;-)]
 <img src="documentation/export.png" width="333">
 
 
