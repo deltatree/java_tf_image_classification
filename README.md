@@ -22,12 +22,12 @@ OK   Ì.jpg -> {motorbike=0.034807786, airplane=0.06581213, dog=0.8993801} -> do
 ```
 
 ### Google AutoMl Vision
-<img src="documentation/vision.png" width="222">
+<img src="documentation/vision.png" width="333">
 
 ### Model quality
-<img src="documentation/quality.png" width="222">
+<img src="documentation/quality.png" width="333">
 
-### Model export
-<img src="documentation/export.png" width="222">
+### Model export (Export your model as a TF Saved Model to run on a Docker container.)
+<img src="documentation/export.png" width="333">
 
 
