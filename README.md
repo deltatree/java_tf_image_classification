@@ -1,4 +1,4 @@
-# Using Google AutoML Vision saved_model.pb (exported tensorflow model) within java
+# Using Google Cloud AutoML Edge Image Classification Models in Java
 
 ### Showcase
 I built a tensorflow model with Google AutoMl Vision , downloaded it for local use und wrote a java showcase to execute it:
