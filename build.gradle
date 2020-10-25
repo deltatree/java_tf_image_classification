@@ -22,17 +22,10 @@ dependencies {
     implementation 'com.google.guava:guava:27.0.1-jre'
 
 	//https://github.com/tensorflow/java
-	
-	//Pinned specific snapshot version in cause of errors getting it with 0.2.0-SNAPSHOT
-	implementation 'org.tensorflow:tensorflow-core-api:0.2.0-20201001.071558-167'
-	implementation 'org.tensorflow:tensorflow-core-api:0.2.0-20201001.071558-167:linux-x86_64'
-	implementation 'org.tensorflow:tensorflow-core-api:0.2.0-20201001.071558-167:macosx-x86_64'
-	implementation 'org.tensorflow:tensorflow-core-api:0.2.0-20201001.071558-167:windows-x86_64'
-
-	//implementation 'org.tensorflow:tensorflow-core-api:0.2.0-SNAPSHOT'
-	//implementation 'org.tensorflow:tensorflow-core-api:0.2.0-SNAPSHOT:linux-x86_64'
-	//implementation 'org.tensorflow:tensorflow-core-api:0.2.0-SNAPSHOT:macosx-x86_64'
-	//implementation 'org.tensorflow:tensorflow-core-api:0.2.0-SNAPSHOT:windows-x86_64'
+	implementation 'org.tensorflow:tensorflow-core-api:0.2.0'
+	implementation 'org.tensorflow:tensorflow-core-api:0.2.0:linux-x86_64'
+	implementation 'org.tensorflow:tensorflow-core-api:0.2.0:macosx-x86_64'
+	implementation 'org.tensorflow:tensorflow-core-api:0.2.0:windows-x86_64'
 
 	compile 'commons-codec:commons-codec:1.15'
 
