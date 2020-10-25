@@ -31,3 +31,8 @@ OK   Ì.jpg -> {motorbike=0.034807786, airplane=0.06581213, dog=0.8993801} -> do
 <img src="documentation/export.png" width="333">
 
 
+### my thanks go to
+<ul>
+<li><https://heartbeat.fritz.ai/using-google-cloud-automl-edge-image-classification-models-in-python-92f2885c767></li>
+<li><https://github.com/tensorflow/java></li>
+</ul>
