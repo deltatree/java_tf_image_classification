@@ -33,6 +33,6 @@ OK   Ì.jpg -> {motorbike=0.034807786, airplane=0.06581213, dog=0.8993801} -> do
 
 ### my thanks go to
 <ul>
-<li><https://heartbeat.fritz.ai/using-google-cloud-automl-edge-image-classification-models-in-python-92f2885c767></li>
-<li><https://github.com/tensorflow/java></li>
+<li>[https://heartbeat.fritz.ai/using-google-cloud-automl-edge-image-classification-models-in-python-92f2885c767](https://heartbeat.fritz.ai/using-google-cloud-automl-edge-image-classification-models-in-python-92f2885c767)</li>
+<li>[https://github.com/tensorflow/java](https://github.com/tensorflow/java)</li>
 </ul>
